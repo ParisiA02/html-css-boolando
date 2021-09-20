@@ -6,7 +6,6 @@
 .clearfix{
     width: 90%;
     margin: 0 auto;
-    background-color: red;
 }
 .clearfix::after{
     content: "";
@@ -16,9 +15,8 @@
 .product{
     width: calc(100%/3);
     float: left;
-    margin-top: 5px;
+    margin-top: 30px;
     border: solid 5px white;
-    background-color: yellow;
 }
 .image{
     width: 100%;
@@ -26,4 +24,19 @@
 }
 h6{
     color: grey;
+}
+.item{
+    font-weight: bold;
+    display: block;
+}
+.price{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.old-price{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: line-through;
 }
