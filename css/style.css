@@ -50,3 +50,13 @@ h6{
     padding: 6px 10px;
     z-index: 100;
 }
+.discount{
+    background-color: rgb(235, 0, 55);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
