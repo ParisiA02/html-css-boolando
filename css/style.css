@@ -44,11 +44,10 @@ h6{
 .heart{
     background-color: white;
     position: absolute;
-    top: 10px;
+    top: 2%;
     right: 0; 
     font-size: 20px;
     padding: 6px 10px;
-    z-index: 100;
 }
 .discount{
     background-color: rgb(235, 0, 55);
@@ -57,6 +56,19 @@ h6{
     font-weight: bold;
     padding: 3px;
     position: absolute;
-    top: 450px;
+    top: 85%;
+    left: 0;
+}
+.sustainability{
+    background-color: rgb(0, 135, 90);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    top: 85%;
+    left: 31px;
+}
+.sustainability.left{
     left: 0;
 }
