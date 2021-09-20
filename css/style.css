@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    width: 90%;
+    margin: 0 auto;
+    background-color: red;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.product{
+    width: calc(100%/3);
+    float: left;
+    margin-top: 5px;
+    border: solid 5px white;
+    background-color: yellow;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+}
+h6{
+    color: grey;
+}
